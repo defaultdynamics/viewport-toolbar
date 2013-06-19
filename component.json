@@ -1,17 +1,19 @@
 {
-	"name": "viewport-toolbar",
-	"description": "A toolbar for the viewport component.",
-	"dependencies": {
-		"debianw/b64icons": "*",
-		"component/classes": "*",
-		"component/domify": "*"
-	},
-	"scripts": [
-		"index.js",
-		"template.js",
-		"item.js"
-	],
-	"styles": [
-		"style.css"
-	]
+    "name": "viewport-toolbar",
+    "description": "A toolbar for the viewport component.",
+    "dependencies": {
+        "debianw/b64icons": "*",
+        "component/classes": "*",
+        "component/domify": "*",
+        "component/bind": "*",
+        "gjohnson/uuid": "*"
+    },
+    "scripts": [
+        "index.js",
+        "template.js",
+        "item.js"
+    ],
+    "styles": [
+        "style.css"
+    ]
 }

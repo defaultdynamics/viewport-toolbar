@@ -1,1 +1,1 @@
-module.exports = '<li>\n    <div class="icon"></div>\n    <p></p>\n</li>';
+module.exports = '<li class="item">\n    <div class="icon"></div>\n    <p></p>\n</li>';
