@@ -1,0 +1,1 @@
+module.exports = '<!-- toolbar -->\n<nav id="viewport-toolbar">\n    <ul id="content" class="topcoat-navigation-bar"></ul>\n</nav>\n<!-- /toolbar -->';

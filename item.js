@@ -1,0 +1,1 @@
+module.exports = '<li>\n    <div class="icon"></div>\n    <p></p>\n</li>';
