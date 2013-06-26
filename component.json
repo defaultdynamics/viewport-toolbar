@@ -2,7 +2,7 @@
     "name": "viewport-toolbar",
     "description": "A toolbar for the viewport component.",
     "dependencies": {
-        "debianw/b64icons": "*",
+        "defaultdynamics/b64icons": "*",
         "component/classes": "*",
         "component/domify": "*",
         "component/bind": "*",
