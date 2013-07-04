@@ -28,6 +28,7 @@ function Toolbar (options) {
       , idx = 0;
 
     this.el = templateEl;
+    this._hidden = false;
     
     options = options || {};
     items = options.items || [];
@@ -96,5 +97,39 @@ Toolbar.prototype.onItemTap = function (el) {
  */
 
 Toolbar.prototype.destroy = function () {
-
+  console.log('destroy toolbar');
 };
+
+/**
+ *
+ */
+
+Toolbar.prototype.hide = function () {
+  setTimeout(function () {
+    this.el.style.display = "none";
+    this.isHidden(true);
+  }.bind(this), 0);
+};
+
+/**
+ *
+ */
+
+Toolbar.prototype.show = function () {
+
+  setTimeout(function () {
+    this.el.style.display = "";
+    this.isHidden(false);
+  }.bind(this), 0);
+  
+};
+
+/**
+ *
+ */
+
+Toolbar.prototype.isHidden = function (hidden) {
+  if (!arguments.length) return this._hidden;
+
+  this._hidden = hidden;
+}
